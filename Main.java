@@ -6,7 +6,7 @@ public class Main {
 
         // Crear pedido
         Pedido pedido = new Pedido(cliente, 987654321);
-        Pedido pedido2 = new Pedido(cliente2, 987654321);
+        Pedido pedido2 = new Pedido(cliente2, 123456789);
 
         // Crear productos usando la fábrica
         Producto camara = ProductoFactory.crearProducto("camara", 1);
