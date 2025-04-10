@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Impresion extends Producto {
     public String color;
-    public ArrayList<Foto> fotos; // Composición: contiene muchas fotos
+    public ArrayList<Foto> fotos; 
 
     public Impresion(int numero, String color) {
         super(numero);

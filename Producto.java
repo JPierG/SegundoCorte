@@ -5,6 +5,5 @@ public abstract class Producto {
         this.numero = numero;
     }
 
-    // Método abstracto para mostrar información
     public abstract void mostrarDetalle();
 }
