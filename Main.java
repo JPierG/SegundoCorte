@@ -22,9 +22,6 @@ public class Main {
             producto.mostrarDetalle();
         }
         
-        // 6. Demostrar el patrón Bridge con fotos e impresoras
-        System.out.println("\nDemostrando el patrón Bridge:");
-        
         // Crear impresoras (implementaciones)
         Impresora impresoraColor = new ImpresoraColor();
         Impresora impresoraBN = new ImpresoraBlancoNegro();
