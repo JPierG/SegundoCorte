@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Impresion extends Producto {
     public String color;
-    public ArrayList<Foto> fotos; 
+    public List<Foto> fotos;
 
     public Impresion(int numero, String color) {
         super(numero);
@@ -16,6 +17,6 @@ public class Impresion extends Producto {
 
     @Override
     public void mostrarDetalle() {
-        System.out.println("("+ numero +")"+ " Impresión "+ " - Color: " + color);
+        System.out.println("Impresión #" + numero + " - " + color + " con " + fotos.size() + " fotos");
     }
 }

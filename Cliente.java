@@ -6,4 +6,8 @@ public class Cliente {
         this.cedula = cedula;
         this.nombre = nombre;
     }
+
+    public Pedido crearPedido(int numeroTarjetaCredito) {
+        return new Pedido(this, numeroTarjetaCredito);
+    }
 }
